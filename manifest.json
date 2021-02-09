@@ -1,0 +1,19 @@
+{
+   "name": "HelloSurf",
+   "version": "1.0",
+   "description": "Check the surfing conditions right from your browser",
+   "manifest_version": 2,
+   "icons": {
+     "48": "surfing_Indo.png"
+   },
+   "content_scripts": [
+     {
+       "matches": [""],
+       "js": [".js"]
+     }
+  ],
+  "browser_action": {
+    "default_popup": "which.html",
+    "default_title": "something here!"
+  }
+}
